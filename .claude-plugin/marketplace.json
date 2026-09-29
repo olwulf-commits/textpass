@@ -1,0 +1,14 @@
+{
+  "name": "textpass",
+  "description": "TextPass für vorhandene deutsche Texte",
+  "owner": {
+    "name": "Olaf Wulf"
+  },
+  "plugins": [
+    {
+      "name": "textpass-de",
+      "source": "./plugins/textpass-de",
+      "description": "Redaktioneller Feinschliff mit Bindung an die Vorlage"
+    }
+  ]
+}

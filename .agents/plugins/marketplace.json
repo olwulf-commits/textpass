@@ -1,0 +1,20 @@
+{
+  "name": "textpass",
+  "interface": {
+    "displayName": "TextPass"
+  },
+  "plugins": [
+    {
+      "name": "textpass-de",
+      "source": {
+        "source": "local",
+        "path": "./plugins/textpass-de"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
