@@ -2,6 +2,8 @@
 
 TextPass überarbeitet vorhandene deutsche Texte für Lesefluss, Stimme und Klarheit. Zwei redaktionelle Durchläufe halten die neue Fassung an den Aussagen der Vorlage. Der Skill ergänzt keine eigenen Empfehlungen, Beispiele oder Schlussfolgerungen und ersetzt keine Recherche oder menschliche Freigabe.
 
+Unser Ziel ist, die Qualität von Texten mit vergleichsweise einfachen Mitteln deutlich zu verbessern. Deep Research macht Aussagen und Quellen prüfbar; TextPass arbeitet anschließend an Sprache und Lesefluss. Beides bleibt für Menschen nachvollziehbar und korrigierbar. Wie gut das im Alltag gelingt, müssen konkrete Texte zeigen.
+
 Dieses Repository enthält die **öffentliche** Fassung von Olaf Wulf. Die private Fassung und persönliche Stimmvorgaben gehören nicht dazu. Das Repository ist derzeit privat; es gibt noch keine öffentliche Veröffentlichung und keinen geprüften Installationslauf aus diesem Repository.
 
 Dies ist die **offizielle TextPass-Fassung**. Bearbeitete Fassungen anderer Anbieter sind nicht von Olaf Wulf freigegeben, sofern dies nicht ausdrücklich angegeben ist.
