@@ -1,0 +1,47 @@
+name: Testbericht oder Verbesserungsvorschlag
+description: Melde eine Beobachtung zu Lesefluss, Bedeutungsbindung oder Quellenbezug.
+title: "[Test] "
+body:
+  - type: markdown
+    attributes:
+      value: Danke fürs Testen. Bitte teile nur Textausschnitte, die du hier veröffentlichen darfst.
+  - type: input
+    id: version
+    attributes:
+      label: Werkzeug und Skill-Version
+      placeholder: "z. B. Cursor, TextPass 1.7"
+    validations:
+      required: true
+  - type: textarea
+    id: vorlage
+    attributes:
+      label: Ausgangstext oder teilbares Beispiel
+      description: Ein kurzer Ausschnitt oder eine Beschreibung genügt.
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Erwartetes Ergebnis
+    validations:
+      required: true
+  - type: textarea
+    id: beobachtet
+    attributes:
+      label: Beobachtetes Ergebnis
+      description: Was geschah tatsächlich? Ein gelungenes Ergebnis ist ebenfalls willkommen.
+    validations:
+      required: true
+  - type: textarea
+    id: bedeutung
+    attributes:
+      label: Bedeutung oder Quellenbezug, falls betroffen
+      description: Welche Aussage wurde verändert, ergänzt oder ausgelassen?
+    validations:
+      required: false
+  - type: textarea
+    id: vorschlag
+    attributes:
+      label: Vorschlag zur Verbesserung
+    validations:
+      required: false
