@@ -2,7 +2,7 @@
 
 TextPass überarbeitet vorhandene deutsche Texte, damit sie angenehmer zu lesen sind und ihre Aussagen klarer tragen. Zwei redaktionelle Durchläufe halten die neue Fassung an den Aussagen der Vorlage. Der Skill ergänzt keine eigenen Empfehlungen, Beispiele oder Schlussfolgerungen und ersetzt keine Recherche oder menschliche Freigabe.
 
-Unser Ziel ist, Texte mit vergleichsweise einfachen Mitteln lesbarer, angenehmer und insgesamt hochwertiger zu machen. Deep Research macht Aussagen und Quellen prüfbar; TextPass arbeitet anschließend an Sprache und Lesefluss. Beides bleibt für Menschen nachvollziehbar und korrigierbar. Wie gut das im Alltag gelingt, müssen konkrete Texte zeigen.
+Mein Ziel ist, Texte mit vergleichsweise einfachen Mitteln lesbarer, angenehmer und insgesamt hochwertiger zu machen. [Deep Research](https://github.com/olwulf-commits/deep-research-plugin) macht Aussagen und Quellen prüfbar; TextPass arbeitet anschließend an Sprache und Lesefluss. Beides bleibt für Menschen nachvollziehbar und korrigierbar. Wie gut das im Alltag gelingt, müssen konkrete Texte zeigen.
 
 Dieses Repository enthält die **öffentliche** Fassung von Olaf Wulf. Die private Fassung und persönliche Stimmvorgaben gehören nicht dazu. Das Repository ist derzeit privat; es gibt noch keine öffentliche Veröffentlichung und keinen geprüften Installationslauf aus diesem Repository.
 
@@ -16,11 +16,11 @@ Der Skilltext und dieses README stehen unter [CC BY-SA 4.0](https://creativecomm
 
 ## Mithelfen
 
-Tests und konkrete Verbesserungsvorschläge sind willkommen. Wer Zugriff auf das Repository hat, kann dafür einen [Testbericht auf GitHub](https://github.com/olwulf-commits/textpass/issues/new/choose) anlegen. Die Vorlage fragt nach Werkzeug, Version, Beispiel und beobachtetem Ergebnis. Auch ein gelungener Test hilft uns. Wir prüfen die Rückmeldungen und entscheiden, was an der offiziellen Fassung geändert wird.
+Tests und konkrete Verbesserungsvorschläge sind willkommen. Wer Zugriff auf das Repository hat, kann dafür einen [Testbericht auf GitHub](https://github.com/olwulf-commits/textpass/issues/new/choose) anlegen. Die Vorlage fragt nach Werkzeug, Version, Beispiel und beobachtetem Ergebnis. Auch ein gelungener Test hilft mir. Ich prüfe die Rückmeldungen und entscheide, was an der offiziellen Fassung geändert wird.
 
 ## Herkunft
 
-Wir schätzen Martin Möllers Arbeit an [humanizer-de](https://github.com/marmbiz/humanizer-de) und seinem [KI-Text-Eisberg](https://martin-moeller.biz/lab/ki-text-eisberg); sie hat uns bei TextPass angeregt. Einige ähnliche redaktionelle Schritte hatten wir unabhängig davon bereits entwickelt. TextPass ist ein eigenständiges Projekt von Olaf Wulf. Es besteht keine offizielle Verbindung zu Martin Möller oder humanizer-de. Weder Programmcode noch der Musterkatalog des Humanizers sind Bestandteil dieses Repositories.
+Ich schätze Martin Möllers Arbeit an [humanizer-de](https://github.com/marmbiz/humanizer-de) und seinem [KI-Text-Eisberg](https://martin-moeller.biz/lab/ki-text-eisberg); sie hat mich bei TextPass angeregt. Einige ähnliche redaktionelle Schritte hatte ich unabhängig davon bereits entwickelt. TextPass ist mein eigenständiges Projekt. Es besteht keine offizielle Verbindung zu Martin Möller oder humanizer-de. Weder Programmcode noch der Musterkatalog des Humanizers sind Bestandteil dieses Repositories.
 
 ## Vor einer öffentlichen Freigabe
 
