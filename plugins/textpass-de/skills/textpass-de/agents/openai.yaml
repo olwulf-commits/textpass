@@ -1,4 +1,4 @@
 interface:
   display_name: "TextPass von Olaf Wulf"
-  short_description: "Deutsche Texte redaktionell verbessern"
+  short_description: "Vorhandene Texte prüfen und gezielt verbessern"
   default_prompt: "Nutze $textpass-de für diesen vorhandenen Text und gib den verbesserten Text aus."

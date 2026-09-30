@@ -1,7 +1,7 @@
 {
   "name": "textpass-de",
-  "description": "TextPass von Olaf Wulf: redaktioneller Feinschliff für vorhandene deutsche Texte; ohne persönliches Stimmprofil.",
-  "version": "1.0.4",
+  "description": "TextPass gestaltet und überarbeitet deutsche Texte mit offenen Fragen, freiem Aufbau und Bedeutungsbindung.",
+  "version": "1.0.10",
   "author": {
     "name": "Olaf Wulf"
   }

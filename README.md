@@ -1,8 +1,10 @@
 # TextPass
 
-TextPass überarbeitet vorhandene deutsche Texte, damit sie angenehmer zu lesen sind und ihre Aussagen klarer tragen. Zwei redaktionelle Durchläufe halten die neue Fassung an den Aussagen der Vorlage. Der Skill ergänzt keine eigenen Empfehlungen, Beispiele oder Schlussfolgerungen und ersetzt keine Recherche oder menschliche Freigabe.
+TextPass gestaltet ausdrücklich beauftragte Neuentwürfe und überarbeitet vorhandene deutsche Texte mit offenen Fragen, freiem Aufbau und Bedeutungsbindung. Bei der Überarbeitung prüft der zweite Durchlauf Bedeutung, Gewichtung und Stimme gegen die Vorlage; eigene Empfehlungen, Beispiele oder Schlussfolgerungen werden dabei nicht ergänzt. Bei Neuentwürfen dürfen Gedanken im beauftragten Schreibprozess entstehen und sich entwickeln; der Abgleich folgt Auftrag, Material und Beleggrenzen. Der Skill ersetzt keine Recherche oder menschliche Freigabe.
 
-Mein Ziel ist, Texte mit vergleichsweise einfachen Mitteln lesbarer, angenehmer und insgesamt hochwertiger zu machen. [Deep Research](https://github.com/olwulf-commits/deep-research-plugin) macht Aussagen und Quellen prüfbar; TextPass arbeitet anschließend an Sprache und Lesefluss. Beides bleibt für Menschen nachvollziehbar und korrigierbar. Wie gut das im Alltag gelingt, müssen konkrete Texte zeigen.
+Mein Ziel ist, Texte mit vergleichsweise einfachen Mitteln lesbarer, angenehmer und insgesamt hochwertiger zu machen. [QuellPass](https://github.com/olwulf-commits/quellpass) macht Aussagen und Quellen prüfbar; TextPass arbeitet anschließend an Sprache und Lesefluss. Beides bleibt für Menschen nachvollziehbar und korrigierbar. Wie gut das im Alltag gelingt, müssen konkrete Texte zeigen.
+
+Mein Ansatz versteht Evaluation als Arbeit am Vorhandenen: Ich prüfe, was bereits trägt und wo ein Text besser werden kann, und nutze diese Erkenntnisse für die Überarbeitung. „Evaluieren“ heißt [bewerten](https://www.duden.de/rechtschreibung/evaluieren); das Wort führt über das Französische auf lateinisch [*valere*](https://www.etymonline.com/word/evaluation) („wert sein“) zurück. Bei der formativen Evaluation dienen Befunde dazu, mögliche Verbesserungen abzuleiten. TextPass folgt diesem Gedanken: Gute Stellen bleiben, schwächere werden gezielt überarbeitet.
 
 Dieses Repository enthält die **öffentliche** Fassung von Olaf Wulf. Die private Fassung und persönliche Stimmvorgaben gehören nicht dazu. Das Repository ist derzeit privat; es gibt noch keine öffentliche Veröffentlichung und keinen geprüften Installationslauf aus diesem Repository.
 

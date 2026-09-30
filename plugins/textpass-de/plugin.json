@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "textpass-de",
-  "version": "1.0.4",
-  "description": "Redaktioneller Feinschliff für vorhandene deutsche Texte.",
+  "version": "1.0.10",
+  "description": "TextPass gestaltet und überarbeitet deutsche Texte mit offenen Fragen, freiem Aufbau und Bedeutungsbindung.",
   "author": {
     "name": "Olaf Wulf"
   },
@@ -10,8 +10,8 @@
     "com.openai": {
       "interface": {
         "displayName": "TextPass",
-        "shortDescription": "Deutsche Texte redaktionell verbessern",
-        "longDescription": "Überarbeitet vorhandene deutsche Texte in zwei Durchläufen mit Abgleich zur Vorlage.",
+        "shortDescription": "Deutsche Texte gestalten",
+        "longDescription": "Gestaltet beauftragte Neuentwürfe und überarbeitet vorhandene Texte in zwei Durchläufen mit Prüfung von Bedeutung, Gewichtung und Stimme.",
         "developerName": "Olaf Wulf",
         "category": "Productivity",
         "capabilities": [

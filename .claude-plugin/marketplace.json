@@ -1,6 +1,6 @@
 {
   "name": "textpass",
-  "description": "TextPass für vorhandene deutsche Texte",
+  "description": "TextPass für Gestaltung und Überarbeitung deutscher Texte",
   "owner": {
     "name": "Olaf Wulf"
   },
@@ -8,7 +8,7 @@
     {
       "name": "textpass-de",
       "source": "./plugins/textpass-de",
-      "description": "Redaktioneller Feinschliff mit Bindung an die Vorlage"
+      "description": "Offene Fragen, freier Aufbau und Bedeutungsbindung für deutsche Texte"
     }
   ]
 }
