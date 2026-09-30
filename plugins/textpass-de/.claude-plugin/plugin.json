@@ -3,6 +3,7 @@
   "description": "TextPass gestaltet und überarbeitet deutsche Texte mit offenen Fragen, freiem Aufbau und Bedeutungsbindung.",
   "version": "1.0.10",
   "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://github.com/olwulf-commits/textpass/blob/main/PRIVACY.en.md",
   "author": {
     "name": "Olaf Wulf"
   }
