@@ -2,6 +2,7 @@
   "name": "textpass-de",
   "description": "TextPass gestaltet und überarbeitet deutsche Texte mit offenen Fragen, freiem Aufbau und Bedeutungsbindung.",
   "version": "1.0.10",
+  "icon": "./assets/icon.png",
   "author": {
     "name": "Olaf Wulf"
   }
