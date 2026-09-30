@@ -1,5 +1,9 @@
 # TextPass
 
+Deutsch · [English](README.en.md)
+
+**TextPass ist speziell für deutsche Texte ausgearbeitet.** Die englische README erläutert diese Fassung; sie ist keine englischsprachige Skill-Version.
+
 TextPass gestaltet ausdrücklich beauftragte Neuentwürfe und überarbeitet vorhandene deutsche Texte mit offenen Fragen, freiem Aufbau und Bedeutungsbindung. Bei der Überarbeitung prüft der zweite Durchlauf Bedeutung, Gewichtung und Stimme gegen die Vorlage; eigene Empfehlungen, Beispiele oder Schlussfolgerungen werden dabei nicht ergänzt. Bei Neuentwürfen dürfen Gedanken im beauftragten Schreibprozess entstehen und sich entwickeln; der Abgleich folgt Auftrag, Material und Beleggrenzen. Der Skill ersetzt keine Recherche oder menschliche Freigabe.
 
 Mein Ziel ist, Texte mit vergleichsweise einfachen Mitteln lesbarer, angenehmer und insgesamt hochwertiger zu machen. [QuellPass](https://github.com/olwulf-commits/quellpass) macht Aussagen und Quellen prüfbar; TextPass arbeitet anschließend an Sprache und Lesefluss. Beides bleibt für Menschen nachvollziehbar und korrigierbar. Wie gut das im Alltag gelingt, müssen konkrete Texte zeigen.
@@ -19,6 +23,8 @@ Der Skilltext und dieses README stehen unter [CC BY-SA 4.0](https://creativecomm
 ## Mithelfen
 
 Tests und konkrete Verbesserungsvorschläge sind willkommen. Wer Zugriff auf das Repository hat, kann dafür einen [Testbericht auf GitHub](https://github.com/olwulf-commits/textpass/issues/new/choose) anlegen. Die Vorlage fragt nach Werkzeug, Version, Beispiel und beobachtetem Ergebnis. Auch ein gelungener Test hilft mir. Ich prüfe die Rückmeldungen und entscheide, was an der offiziellen Fassung geändert wird.
+
+Unterstützung für eine englischsprachige Fassung und weitere EU-Sprachen ist willkommen: bei Übersetzung, sprachspezifischer Ausarbeitung und praktischen Texttests. Dabei sollen Idiomatik, Rhythmus, Grammatik und redaktionelle Konventionen der jeweiligen Sprache berücksichtigt werden, statt nur die deutschen Anweisungen zu übersetzen. Bislang ist die deutsche Fassung ausgearbeitet; die Einladung ist keine Zusage bereits vorhandener Sprachunterstützung.
 
 ## Herkunft
 
