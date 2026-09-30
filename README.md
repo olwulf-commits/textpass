@@ -6,11 +6,11 @@ Mein Ziel ist, Texte mit vergleichsweise einfachen Mitteln lesbarer, angenehmer 
 
 Mein Ansatz versteht Evaluation als Arbeit am Vorhandenen: Ich prüfe, was bereits trägt und wo ein Text besser werden kann, und nutze diese Erkenntnisse für die Überarbeitung. „Evaluieren“ heißt [bewerten](https://www.duden.de/rechtschreibung/evaluieren); das Wort führt über das Französische auf lateinisch [*valere*](https://www.etymonline.com/word/evaluation) („wert sein“) zurück. Bei der formativen Evaluation dienen Befunde dazu, mögliche Verbesserungen abzuleiten. TextPass folgt diesem Gedanken: Gute Stellen bleiben, schwächere werden gezielt überarbeitet.
 
-Dieses Repository enthält die **öffentliche** Fassung von Olaf Wulf. Die private Fassung und persönliche Stimmvorgaben gehören nicht dazu. Das Repository ist derzeit privat; es gibt noch keine öffentliche Veröffentlichung und keinen geprüften Installationslauf aus diesem Repository.
+Dieses öffentliche Repository enthält die **allgemeine** Fassung von Olaf Wulf. Die private Fassung und persönliche Stimmvorgaben gehören nicht dazu. Version 1.0.10 ist lokal aus diesem Repository in Codex installiert und mit ihren Quellen abgeglichen; eine Aufnahme in ein offizielles Anbieter-Verzeichnis ist damit nicht verbunden.
 
 Dies ist die **offizielle TextPass-Fassung**. Bearbeitete Fassungen anderer Anbieter sind nicht von Olaf Wulf freigegeben, sofern dies nicht ausdrücklich angegeben ist.
 
-Der Skill liegt unter [`plugins/textpass-de/skills/textpass-de/SKILL.md`](plugins/textpass-de/skills/textpass-de/SKILL.md). Die Katalogdateien für Codex und Claude sind vorbereitet. Installationsschritte und Beispiele werden vor einer öffentlichen Freigabe mit beiden Werkzeugen geprüft.
+Der Skill liegt unter [`plugins/textpass-de/skills/textpass-de/SKILL.md`](plugins/textpass-de/skills/textpass-de/SKILL.md). Die Katalogdateien für Codex und Claude sind enthalten. In Claude Code kann der Katalog mit `claude plugin marketplace add olwulf-commits/textpass` hinzugefügt und das Plugin mit `claude plugin install textpass-de@textpass` installiert werden. Dieser Claude-Installationsweg ist vorbereitet, aber hier nicht praktisch geprüft.
 
 ## Lizenz
 
@@ -24,6 +24,6 @@ Tests und konkrete Verbesserungsvorschläge sind willkommen. Wer Zugriff auf das
 
 Ich schätze Martin Möllers Arbeit an [humanizer-de](https://github.com/marmbiz/humanizer-de) und seinem [KI-Text-Eisberg](https://martin-moeller.biz/lab/ki-text-eisberg); sie hat mich bei TextPass angeregt. Einige ähnliche redaktionelle Schritte hatte ich unabhängig davon bereits entwickelt. TextPass ist mein eigenständiges Projekt. Es besteht keine offizielle Verbindung zu Martin Möller oder humanizer-de. Weder Programmcode noch der Musterkatalog des Humanizers sind Bestandteil dieses Repositories.
 
-## Vor einer öffentlichen Freigabe
+## Stand und Grenzen
 
-Installationswege, Beispieltexte und Quellenhinweise werden geprüft. Erst danach wird entschieden, ob und wann das Repository öffentlich wird.
+Die allgemeine Fassung wird auf Olafs Freigabe öffentlich bereitgestellt. Paket- und Installationsabgleich sind keine Garantie für die Befolgung durch jedes Modell. Praktische Textversuche und Rückmeldungen dienen der weiteren Prüfung; eine offizielle Verzeichnisaufnahme wird erst nach bestätigter Annahme behauptet.
