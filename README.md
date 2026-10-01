@@ -1,5 +1,7 @@
 # TextPass
 
+[TextPass & QuellPass — Olaf Wulf](https://olwulf-commits.github.io/)
+
 Deutsch · [English](README.en.md)
 
 **TextPass ist speziell für deutsche Texte ausgearbeitet.** Die englische README erläutert diese Fassung; sie ist keine englischsprachige Skill-Version.
