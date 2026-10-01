@@ -1,0 +1,29 @@
+{
+  "name": "textpass",
+  "owner": {
+    "name": "Olaf Wulf"
+  },
+  "metadata": {
+    "description": "Öffentlicher TextPass für deutsche Texte"
+  },
+  "plugins": [
+    {
+      "name": "textpass-de",
+      "source": "plugins/textpass-de",
+      "description": "Deutsche Texte mit offenen Fragen, acht Prüfschritten und zwei redaktionellen Durchläufen gestalten und überarbeiten.",
+      "version": "1.0.17",
+      "author": {
+        "name": "Olaf Wulf"
+      },
+      "homepage": "https://github.com/olwulf-commits/textpass",
+      "repository": "https://github.com/olwulf-commits/textpass",
+      "keywords": [
+        "German",
+        "writing",
+        "editing",
+        "TextPass"
+      ],
+      "logo": "assets/icon.png"
+    }
+  ]
+}

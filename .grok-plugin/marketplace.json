@@ -1,0 +1,28 @@
+{
+  "name": "textpass",
+  "description": "TextPass für Gestaltung und Überarbeitung deutscher Texte",
+  "owner": {
+    "name": "Olaf Wulf"
+  },
+  "plugins": [
+    {
+      "name": "textpass-de",
+      "source": {
+        "type": "local",
+        "path": "./plugins/textpass-de"
+      },
+      "description": "Deutsche Texte mit offenen Fragen, acht Prüfschritten und zwei redaktionellen Durchläufen gestalten und überarbeiten.",
+      "version": "1.0.17",
+      "author": {
+        "name": "Olaf Wulf"
+      },
+      "homepage": "https://github.com/olwulf-commits/textpass",
+      "keywords": [
+        "TextPass",
+        "Deutsch",
+        "Schreiben",
+        "Textüberarbeitung"
+      ]
+    }
+  ]
+}

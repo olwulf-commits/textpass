@@ -1,7 +1,7 @@
 {
   "name": "textpass-de",
   "description": "TextPass gestaltet und überarbeitet deutsche Texte mit offenen Fragen, freiem Aufbau und Bedeutungsbindung.",
-  "version": "1.0.10",
+  "version": "1.0.17",
   "icon": "./assets/icon.png",
   "privacyPolicyUrl": "https://github.com/olwulf-commits/textpass/blob/main/PRIVACY.en.md",
   "author": {
