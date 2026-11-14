@@ -12,7 +12,13 @@ Mein Ziel ist, Texte mit vergleichsweise einfachen Mitteln lesbarer, angenehmer 
 
 Mein Ansatz versteht Evaluation als Arbeit am Vorhandenen: Ich prüfe, was bereits trägt und wo ein Text besser werden kann, und nutze diese Erkenntnisse für die Überarbeitung. „Evaluieren“ heißt [bewerten](https://www.duden.de/rechtschreibung/evaluieren); das Wort führt über das Französische auf lateinisch [*valere*](https://www.etymonline.com/word/evaluation) („wert sein“) zurück. Bei der formativen Evaluation dienen Befunde dazu, mögliche Verbesserungen abzuleiten. TextPass folgt diesem Gedanken: Gute Stellen bleiben, schwächere werden gezielt überarbeitet.
 
-Dieses öffentliche Repository enthält die **allgemeine** Fassung von Olaf Wulf. Diese öffentliche Fassung trägt Version 1.0.17. Der vorherige Stand 1.0.16 war lokal in Codex, Cursor, Claude Code und Grok Build installiert und mit den Quellen abgeglichen. Die acht intern dokumentierten Prüfschritte, die Pflichtdelegation an einen getrennten Frage-Agenten, eine eigene inhaltliche Gegenfrage und die verbindliche Prüfung auf KI-Floskeln sind Teil dieser Fassung. Eine Aufnahme in ein Anbieter-Verzeichnis wird erst nach bestätigter Annahme behauptet.
+Dieses öffentliche Repository enthält die **allgemeine, vertragsfreie** Fassung von Olaf Wulf. Die private Fassung, der persönliche Textvertrag und persönliche Stimmvorgaben gehören nicht dazu. Diese öffentliche Fassung trägt Version 1.1.0: Sie bündelt den allgemeinen 7-Schritt-Ablauf in `references/schritte-7-ablauf.md`, ergänzt volle Antigravity-Unterstützung (`agents/textpass-fragen-agent.md`, Logo, gestraffte `SKILL.md` unter 20 KB) und hält den Text bewusst schlank. Die Pflichtdelegation an einen getrennten Frage-Agenten, eine eigene inhaltliche Gegenfrage, die Zahlen- und Maßangabenregel sowie die verbindliche Prüfung auf KI-Floskeln sind Teil dieser Fassung. Eine Aufnahme in ein Anbieter-Verzeichnis wird erst nach bestätigter Annahme behauptet.
+
+### Installation in Antigravity
+
+```bash
+agy plugin install https://github.com/olwulf-commits/textpass --plugin textpass-de
+```
 
 Dies ist die **offizielle TextPass-Fassung**. Bearbeitete Fassungen anderer Anbieter sind nicht von Olaf Wulf freigegeben, sofern dies nicht ausdrücklich angegeben ist.
 
@@ -24,7 +30,7 @@ Für Cursor sind `.cursor-plugin/marketplace.json` und das Plugin-Manifest vorbe
 
 Für Hermes Agent kann das geklonte Repository als externe Skillquelle eingebunden werden: In `~/.hermes/config.yaml` verweist `skills.external_dirs` auf den absoluten Pfad `plugins/textpass-de/skills` innerhalb des Klons. Dadurch bleiben TextPass und `haltung-im-text` zusammen; eine neue Hermes-Sitzung lädt die Änderung. Ein gleichnamiger lokaler Skill hat in Hermes Vorrang; prüfe deshalb, welche Fassung tatsächlich geladen wurde. Hermes unterstützt auch [Grok als Modellanbieter](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md). Das ist ein anderer Weg als Grok Build. Die öffentliche Fassung ist in Hermes praktisch getestet; die lokal installierte private Fassung ist ein anderer Stand. Siehe die [Hermes-Anleitung für externe Skills](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md#external-skill-directories).
 
-Das Plugin enthält zusätzlich [`haltung-im-text`](plugins/textpass-de/skills/haltung-im-text/SKILL.md). Bei beauftragter Haltung oder Stimme und bei Hinweisen wie „zu glatt“ prüft dieser Skill die Gestaltung. Seine Fragen und Entscheidungen gehören in Schritt 5, seine Textstellenvergleiche in Schritt 7 und die Nachweisprüfung in Schritt 8. Ein Glätte-Hinweis allein erlaubt keine neue Haltung, Ich-Stimme oder erfundene Erfahrung. Bei einer Installation als einzelne Skilldateien werden beide Skills benötigt.
+Das Plugin enthält zusätzlich [`haltung-im-text`](plugins/textpass-de/skills/haltung-im-text/SKILL.md). Bei beauftragter Haltung oder Stimme und bei Hinweisen wie „zu glatt“ prüft dieser Skill die Gestaltung. Seine Fragen und Entscheidungen gehören in Schritt 5, seine Textstellenvergleiche in Schritt 6 und die Nachweisprüfung in Schritt 7. Ein Glätte-Hinweis allein erlaubt keine neue Haltung, Ich-Stimme oder erfundene Erfahrung. Bei einer Installation als einzelne Skilldateien werden beide Skills benötigt.
 
 ## Lizenz
 

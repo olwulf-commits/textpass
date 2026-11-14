@@ -12,7 +12,13 @@ My goal is to make texts more readable, enjoyable, and better overall using rela
 
 I see evaluation as working with what is already there: identifying what holds up, where a text could improve, and using those findings to guide revision. “Evaluate” means to assess; the word comes through French from Latin [*valere*](https://www.etymonline.com/word/evaluation), meaning “to be worth.” In formative evaluation, findings inform improvements. TextPass follows that approach: strong passages stay; weaker ones receive focused attention.
 
-This public repository contains the general edition by Olaf Wulf. The private edition and personal voice guidelines are not included. This public edition is version 1.0.17. The preceding 1.0.16 edition was installed locally in Codex, Cursor, Claude Code, and Grok Build and checked against the source files; a practical model run of 1.0.17 is still pending. This edition includes eight internally documented review steps, a separate question agent, an original substantive counterquestion by the writing assistant, and a mandatory check for generic AI phrasing. An official provider-directory listing will only be claimed after confirmed acceptance.
+This public repository contains the general, contract-free edition by Olaf Wulf. The private edition, personal editorial contract, and personal voice guidelines are not included. This public edition is version 1.1.0: it extracts the general 7-step workflow into `references/schritte-7-ablauf.md`, adds full Antigravity support (`agents/textpass-fragen-agent.md`, plugin logo, streamlined `SKILL.md` under 20 KB), and keeps the main skill concise. It includes the mandatory delegation to a separate question agent, an original substantive counterquestion by the writing assistant, the strict numbers/units rule, and a mandatory check for generic AI phrasing. An official provider-directory listing will only be claimed after confirmed acceptance.
+
+### Installation in Antigravity
+
+```bash
+agy plugin install https://github.com/olwulf-commits/textpass --plugin textpass-de
+```
 
 This is the **official TextPass edition**. Modified editions from other providers are not endorsed by Olaf Wulf unless explicitly stated.
 
@@ -26,7 +32,7 @@ For Cursor, `.cursor-plugin/marketplace.json` and the plugin manifest are prepar
 
 Hermes Agent can read the cloned repository as an external skill source: Set `skills.external_dirs` in `~/.hermes/config.yaml` to the absolute path of `plugins/textpass-de/skills` inside the clone. This keeps TextPass and `haltung-im-text` together; start a new Hermes session to load the change. A local skill with the same name takes precedence in Hermes, so check which edition was actually loaded. Hermes also supports [Grok as a model provider](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/integrations/providers.md). This is separate from Grok Build. The public edition has not yet been tested in Hermes; the locally installed private edition is a different release. See the [Hermes external skills guide](https://github.com/NousResearch/hermes-agent/blob/main/website/docs/user-guide/features/skills.md#external-skill-directories).
 
-The plugin also includes [`haltung-im-text`](plugins/textpass-de/skills/haltung-im-text/SKILL.md). It examines editorial choices when a stance or voice is commissioned or a comment such as “too smooth” calls for a design review. Its questions and decisions belong in step 5, its passage comparisons in step 7, and its evidence check in step 8. A comment about smoothness alone does not authorize a new stance, first-person voice, or invented experience. When installing individual skill files, install both skills.
+The plugin also includes [`haltung-im-text`](plugins/textpass-de/skills/haltung-im-text/SKILL.md). It examines editorial choices when a stance or voice is commissioned or a comment such as “too smooth” calls for a design review. Its questions and decisions belong in step 5, its passage comparisons in step 6, and its evidence check in step 7. A comment about smoothness alone does not authorize a new stance, first-person voice, or invented experience. When installing individual skill files, install both skills.
 
 ## License
 
